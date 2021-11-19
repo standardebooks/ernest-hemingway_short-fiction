@@ -10,46 +10,43 @@ header > blockquote[epub|type~="epigraph"]{
 	font-style: italic;
 }
 
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
 }
-
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
-section > header [epub|type~="epigraph"]{
+article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
+article > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
 }
 
 @supports(display: table){
-	article > header [epub|type~="epigraph"],
-	section > header [epub|type~="epigraph"]{
+	article > header [epub|type~="epigraph"]{
 		display: table;
 	}
 }
