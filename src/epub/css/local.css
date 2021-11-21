@@ -1,11 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-header > blockquote[epub|type~="epigraph"]{
-	padding-top: 3em;
-	break-after: page;
-}
-
+/* Italicize the vignettes */
+[id^='chapter-'] p,
 #l-envoi p{
 	font-style: italic;
 }
@@ -24,30 +21,3 @@ header > blockquote[epub|type~="epigraph"]{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
-
-/* All epigraphs */
-[epub|type~="epigraph"]{
-	font-style: italic;
-	hyphens: none;
-	-epub-hyphens: none;
-}
-/* End all epigraphs */
-
-/* Epigraphs in section headers */
-article > header [epub|type~="epigraph"]{
-	display: inline-block;
-	margin: auto;
-	max-width: 80%;
-	text-align: initial;
-}
-
-article > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
-@supports(display: table){
-	article > header [epub|type~="epigraph"]{
-		display: table;
-	}
-}
-/* End epigraphs in section headers */
