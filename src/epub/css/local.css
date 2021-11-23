@@ -7,6 +7,10 @@
 	font-style: italic;
 }
 
+#the-torrents-of-spring blockquote:not([epub|type~=epigraph]) > p{
+	text-align: center;
+}
+
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -21,3 +25,36 @@
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+/* End all epigraphs */
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
