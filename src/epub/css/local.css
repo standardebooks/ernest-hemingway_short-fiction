@@ -2,7 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Italicize the vignettes */
-[id^='chapter-'] p,
+[id^="chapter-"] p,
 #l-envoi p{
 	font-style: italic;
 }
