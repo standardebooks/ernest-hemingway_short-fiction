@@ -15,6 +15,10 @@
 	text-align: center;
 }
 
+#the-torrents-of-spring #the-struggle-for-life-10-authors-note > p:first-of-type{
+	font-style: italic;
+}
+
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
