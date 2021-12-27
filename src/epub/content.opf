@@ -29,48 +29,72 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Short stories, American</dc:subject>
+		<dc:subject id="subject-2">American fiction--20th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85121819</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85004320</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<dc:description id="description">A collection of Ernest Hemingway’s public domain short stories and novellas.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- A Divine Gesture -->
+		<dc:source>https://www.google.com/books/edition/_/xo-73MR3ETkC</dc:source>
+		<!-- Up In Michigan -->
+		<dc:source>https://www.gutenberg.org/ebooks/59603</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.499337</dc:source>
+		<!-- In Our Time -->
+		<dc:source>https://en.wikisource.org/wiki/In_Our_Time</dc:source>
+		<dc:source>https://www.google.com/books/edition/In_Our_Time/HgctAAAAIAAJ</dc:source>
+		<!-- The Torrents of Spring -->
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210135</dc:source>
+		<dc:source>https://archive.org/details/torrentsofspring00hemi</dc:source>
+		<meta property="se:production-notes">There are 5 missing stories. Three are juvenilia: "The Judgment of Manitou," "A Matter of Color," and "Sepi Jingan" published in Hemingway's highschool magazine. The other two are "Christmas in Paris" and "A North of Italy Christmas" both published on December 22, 1923 in The Toronto Star Weekly. I was unable to find scans/transcriptions of any.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ernest-hemingway_short-fiction</meta>
 		<dc:creator id="author">Ernest Hemingway</dc:creator>
 		<meta property="file-as" refines="#author">Hemingway, Ernest</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Ernest Miller Hemingway</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ernest_Hemingway</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78078534</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Francisco Goya</dc:contributor>
+		<meta property="file-as" refines="#artist">Goya, Francisco</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Francisco José de Goya y Lucientes</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Francisco_Goya</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79003363</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">An Anonymous Volunteer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonymous Volunteer, An</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-2">https://en.wikisource.org</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-2">https://en.wikipedia.org/wiki/Wikisource</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Haines, Al</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Jen Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Haines, Jen</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">The Online Distributed Proofreaders Canada</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Online Distributed Proofreaders Canada, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdpcanada.net</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Matic Likar</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Likar, Matic</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
