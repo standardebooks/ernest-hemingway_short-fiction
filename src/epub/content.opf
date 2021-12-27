@@ -39,7 +39,10 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Ernest Hemingway’s public domain short stories and novellas.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ernest-hemingway"&gt;Ernest Hemingway&lt;/a&gt; is perhaps the most influential American writer of the twentieth century. Though known mostly for his longer works, he began his writing career with the publication of short stories which helped develop his forever-imitated concise, truthful, simple, and straightforward style, which stood in stark contrast to the enigmatic and complex prose of many of his contemporaries.&lt;/p&gt;
+			&lt;p&gt;In 1947, during a University of Mississippi creative writing class, &lt;a href="https://standardebooks.org/ebooks/william-faulkner"&gt;William Faulkner&lt;/a&gt; remarked that Hemingway “has never been known to use a word that might cause the reader to check with a dictionary to see if it is properly used.” Hemingway famously responded: “Poor Faulkner. Does he really think big emotions come from big words? He thinks I don’t know the ten-dollar words. I know them all right. But there are older and simpler and better words, and those are the ones I use.”&lt;/p&gt;
+			&lt;p&gt;Besides his writing style, Hemingway’s most well-known contribution was the iceberg theory of writing. He developed this theory when composing the short story “Out of Season.” Hemingway later said of the story: “I had omitted the real end of it which was that the old man hanged himself. This was omitted on my new theory that you could omit anything if you knew that you omitted and the omitted part would strengthen the story and make people feel something more than they understood.” The story is included in this collection.&lt;/p&gt;
+			&lt;p&gt;This collection comprises all of the public domain stories published in Hemingway’s short story collections, some miscellaneous stories published in various magazines, as well as his novellas. With the exception of stories within collections with a thematic link, such as &lt;i&gt;In Our Time&lt;/i&gt;, they are arranged in publication order.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- A Divine Gesture -->
@@ -53,7 +56,7 @@
 		<!-- The Torrents of Spring -->
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210135</dc:source>
 		<dc:source>https://archive.org/details/torrentsofspring00hemi</dc:source>
-		<meta property="se:production-notes">There are 5 missing stories. Three are juvenilia: "The Judgment of Manitou," "A Matter of Color," and "Sepi Jingan" published in Hemingway's highschool magazine. The other two are "Christmas in Paris" and "A North of Italy Christmas" both published on December 22, 1923 in The Toronto Star Weekly. I was unable to find scans/transcriptions of any.</meta>
+		<meta property="se:production-notes">There are 5 missing stories, none of which are usually included in Hemingway's short story collections. Three are juvenilia: "The Judgment of Manitou," "A Matter of Color," and "Sepi Jingan" published in Hemingway's highschool magazine. The other two are "Christmas in Paris" and "A North of Italy Christmas" both published on December 22, 1923 in The Toronto Star Weekly. I was unable to find scans/transcriptions of any.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ernest-hemingway_short-fiction</meta>
