@@ -12,6 +12,7 @@
 }
 
 #the-torrents-of-spring section > blockquote{
+	font-variant: small-caps;
 	text-align: center;
 }
 
