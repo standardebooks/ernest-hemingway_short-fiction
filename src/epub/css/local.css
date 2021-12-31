@@ -11,12 +11,17 @@
 	font-style: normal;
 }
 
+header > p{
+	font-variant: small-caps;
+	margin: 3em auto;
+}
+
 #the-torrents-of-spring section > blockquote{
 	font-variant: small-caps;
 	text-align: center;
 }
 
-#the-struggle-for-life-10-authors-note p:first-of-type{
+#the-struggle-for-life-10-authors-note > p:first-of-type{
 	font-style: italic;
 }
 
