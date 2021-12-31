@@ -11,11 +11,11 @@
 	font-style: normal;
 }
 
-#the-torrents-of-spring blockquote:not([epub|type~=epigraph]) > p{
+#the-torrents-of-spring section > blockquote{
 	text-align: center;
 }
 
-#the-torrents-of-spring #the-struggle-for-life-10-authors-note > p:first-of-type{
+#the-struggle-for-life-10-authors-note p:first-of-type{
 	font-style: italic;
 }
 
