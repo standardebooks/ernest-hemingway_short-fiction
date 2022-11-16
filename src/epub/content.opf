@@ -111,8 +111,13 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-canary-for-one.xhtml" id="a-canary-for-one.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-divine-gesture.xhtml" id="a-divine-gesture.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-pursuit-race.xhtml" id="a-pursuit-race.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-simple-enquiry.xhtml" id="a-simple-enquiry.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-very-short-story.xhtml" id="a-very-short-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-alpine-idyll.xhtml" id="an-alpine-idyll.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/banal-story.xhtml" id="banal-story.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/big-two-hearted-river-part-i.xhtml" id="big-two-hearted-river-part-i.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/big-two-hearted-river-part-ii.xhtml" id="big-two-hearted-river-part-ii.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/cat-in-the-rain.xhtml" id="cat-in-the-rain.xhtml" media-type="application/xhtml+xml"/>
@@ -131,23 +136,32 @@
 		<item href="text/chapter-13.xhtml" id="chapter-13.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-14.xhtml" id="chapter-14.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-15.xhtml" id="chapter-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/che-ti-dice-la-patria.xhtml" id="che-ti-dice-la-patria.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/cross-country-snow.xhtml" id="cross-country-snow.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/fifty-grand.xhtml" id="fifty-grand.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/hills-like-white-elephants.xhtml" id="hills-like-white-elephants.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/in-another-country.xhtml" id="in-another-country.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/in-our-time.xhtml" id="in-our-time.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/indian-camp.xhtml" id="indian-camp.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/l-envoi.xhtml" id="l-envoi.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/mr-and-mrs-elliot.xhtml" id="mr-and-mrs-elliot.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/my-old-man.xhtml" id="my-old-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/now-i-lay-me.xhtml" id="now-i-lay-me.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/out-of-season.xhtml" id="out-of-season.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/soldiers-home.xhtml" id="soldiers-home.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/ten-indians.xhtml" id="ten-indians.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-battler.xhtml" id="the-battler.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-doctor-and-the-doctors-wife.xhtml" id="the-doctor-and-the-doctors-wife.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-end-of-something.xhtml" id="the-end-of-something.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-killers.xhtml" id="the-killers.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-revolutionist.xhtml" id="the-revolutionist.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-three-day-blow.xhtml" id="the-three-day-blow.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-torrents-of-spring.xhtml" id="the-torrents-of-spring.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-undefeated.xhtml" id="the-undefeated.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/today-is-friday.xhtml" id="today-is-friday.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/up-in-michigan.xhtml" id="up-in-michigan.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -190,6 +204,20 @@
 		<itemref idref="big-two-hearted-river-part-ii.xhtml"/>
 		<itemref idref="l-envoi.xhtml"/>
 		<itemref idref="the-torrents-of-spring.xhtml"/>
+		<itemref idref="the-undefeated.xhtml"/>
+		<itemref idref="in-another-country.xhtml"/>
+		<itemref idref="hills-like-white-elephants.xhtml"/>
+		<itemref idref="the-killers.xhtml"/>
+		<itemref idref="che-ti-dice-la-patria.xhtml"/>
+		<itemref idref="fifty-grand.xhtml"/>
+		<itemref idref="a-simple-enquiry.xhtml"/>
+		<itemref idref="ten-indians.xhtml"/>
+		<itemref idref="a-canary-for-one.xhtml"/>
+		<itemref idref="an-alpine-idyll.xhtml"/>
+		<itemref idref="a-pursuit-race.xhtml"/>
+		<itemref idref="today-is-friday.xhtml"/>
+		<itemref idref="banal-story.xhtml"/>
+		<itemref idref="now-i-lay-me.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
