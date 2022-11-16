@@ -120,11 +120,6 @@ section > header [epub|type~="epigraph"]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
-
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
@@ -137,10 +132,5 @@ i [epub|type~="z3998:persona"]{
 
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
-}
-
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
 }
 /* End drama */
