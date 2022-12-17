@@ -5,5 +5,9 @@
 			<code>t-042</code>
 			<reason>Done intentionally since the sentence doesn't actually stop.</reason>
 		</ignore>
+		<ignore>
+			<code>t-005</code>
+			<reason>The words in quotes are a nickname.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
