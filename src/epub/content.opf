@@ -56,6 +56,9 @@
 		<!-- The Torrents of Spring -->
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210135</dc:source>
 		<dc:source>https://archive.org/details/torrentsofspring00hemi</dc:source>
+		<!-- Men Without Women -->
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20160117</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.182855/</dc:source>
 		<meta property="se:production-notes">There are 5 missing stories, none of which are usually included in Hemingway's short story collections. Three are juvenilia: "The Judgment of Manitou," "A Matter of Color," and "Sepi Jingan" published in Hemingway's highschool magazine. The other two are "Christmas in Paris" and "A North of Italy Christmas" both published on December 22, 1923 in The Toronto Star Weekly. I was unable to find scans/transcriptions of any.</meta>
 		<meta property="se:word-count">62618</meta>
 		<meta property="se:reading-ease.flesch">85.59</meta>
@@ -86,10 +89,19 @@
 		<dc:contributor id="transcriber-4">Jen Haines</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Haines, Jen</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-5">The Online Distributed Proofreaders Canada</dc:contributor>
-		<meta property="file-as" refines="#transcriber-5">Online Distributed Proofreaders Canada, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdpcanada.net</meta>
+		<dc:contributor id="transcriber-5">Marcia Brooks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Brooks, Marcia</meta>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Mark Akrigg</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Akrigg, Mark</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-7">Cindy Beyer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Beyer, Cindy</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-8">The Online Distributed Proofreaders Canada</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Online Distributed Proofreaders Canada, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-8">https://www.pgdpcanada.net</meta>
+		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Matic Likar</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Likar, Matic</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
