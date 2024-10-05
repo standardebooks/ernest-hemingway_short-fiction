@@ -37,6 +37,8 @@
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of Ernest Hemingway’s short stories and novellas.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ernest-hemingway"&gt;Ernest Hemingway&lt;/a&gt; is perhaps the most influential American writer of the twentieth century. Though known mostly for his longer works, he began his writing career with the publication of short stories which helped develop his often-imitated concise, simple, and straightforward style, which stood in stark contrast to the more elaborate prose of many of his contemporaries.&lt;/p&gt;
