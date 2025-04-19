@@ -100,8 +100,8 @@
 		<dc:contributor id="transcriber-7">Cindy Beyer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-7">Beyer, Cindy</meta>
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-8">The Online Distributed Proofreaders Canada</dc:contributor>
-		<meta property="file-as" refines="#transcriber-8">Online Distributed Proofreaders Canada, The</meta>
+		<dc:contributor id="transcriber-8">Distributed Proofreaders Canada</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Distributed Proofreaders Canada</meta>
 		<meta property="se:url.homepage" refines="#transcriber-8">https://www.pgdpcanada.net</meta>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Matic Likar</dc:contributor>
