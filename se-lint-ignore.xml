@@ -2,12 +2,12 @@
 <se-lint-ignore>
 	<file path="a-pursuit-race.xhtml">
 		<ignore>
-			<code>y-031</code>
-			<reason>Done intentionally since the sentence doesn't actually stop.</reason>
-		</ignore>
-		<ignore>
 			<code>t-005</code>
 			<reason>The words in quotes are a nickname.</reason>
+		</ignore>
+		<ignore>
+			<code>y-031</code>
+			<reason>Done intentionally since the sentence doesn't actually stop.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
