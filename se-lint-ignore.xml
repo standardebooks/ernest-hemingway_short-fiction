@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="a-pursuit-race.xhtml">
-		<ignore>
-			<code>t-005</code>
+		<ignore code="t-005">
 			<reason>The words in quotes are a nickname.</reason>
 		</ignore>
-		<ignore>
-			<code>y-031</code>
+		<ignore code="y-031">
 			<reason>Done intentionally since the sentence doesn't actually stop.</reason>
 		</ignore>
 	</file>
