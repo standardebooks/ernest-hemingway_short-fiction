@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ernest-hemingway/short-fiction</dc:identifier>
 		<dc:date>2022-01-01T22:44:27Z</dc:date>
@@ -50,13 +50,13 @@
 		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">Men Without Women</meta>
-		<dc:description id="description">A collection of Ernest Hemingway’s short stories and novellas.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of Ernest Hemingway’s short stories and novellas.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ernest-hemingway"&gt;Ernest Hemingway&lt;/a&gt; is perhaps the most influential American writer of the twentieth century. Though known mostly for his longer works, he began his writing career with the publication of short stories which helped develop his often-imitated concise, simple, and straightforward style, which stood in stark contrast to the more elaborate prose of many of his contemporaries.&lt;/p&gt;
 			&lt;p&gt;In 1947, during a University of Mississippi creative writing class, &lt;a href="https://standardebooks.org/ebooks/william-faulkner"&gt;William Faulkner&lt;/a&gt; remarked that Hemingway “has never been known to use a word that might cause the reader to check with a dictionary to see if it is properly used.” Hemingway famously responded: “Poor Faulkner. Does he really think big emotions come from big words? He thinks I don’t know the ten-dollar words. I know them all right. But there are older and simpler and better words, and those are the ones I use.”&lt;/p&gt;
 			&lt;p&gt;Besides his writing style, Hemingway’s most well-known contribution to the literary landscape was the iceberg theory of writing, developed while composing the short story “Out of Season.” Hemingway later said of the story: “I had omitted the real end of it which was that the old man hanged himself. This was omitted on my new theory that you could omit anything if you knew that you omitted and the omitted part would strengthen the story and make people feel something more than they understood.”&lt;/p&gt;
 			&lt;p&gt;This collection comprises all of the public domain stories published in Hemingway’s short story collections, some miscellaneous stories published in various magazines, and his novellas. With the exception of stories within collections with a thematic link, such as &lt;i&gt;In Our Time&lt;/i&gt;, they are arranged in publication order.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<!-- A Divine Gesture -->
 		<dc:source>https://www.google.com/books/edition/_/xo-73MR3ETkC</dc:source>
