@@ -50,7 +50,7 @@
 		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">Men Without Women</meta>
-		<dc:abstract>A collection of Ernest Hemingway’s short stories and novellas.</dc:abstract>
+		<meta property="schema:abstract">A collection of Ernest Hemingway’s short stories and novellas.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ernest-hemingway"&gt;Ernest Hemingway&lt;/a&gt; is perhaps the most influential American writer of the twentieth century. Though known mostly for his longer works, he began his writing career with the publication of short stories which helped develop his often-imitated concise, simple, and straightforward style, which stood in stark contrast to the more elaborate prose of many of his contemporaries.&lt;/p&gt;
 			&lt;p&gt;In 1947, during a University of Mississippi creative writing class, &lt;a href="https://standardebooks.org/ebooks/william-faulkner"&gt;William Faulkner&lt;/a&gt; remarked that Hemingway “has never been known to use a word that might cause the reader to check with a dictionary to see if it is properly used.” Hemingway famously responded: “Poor Faulkner. Does he really think big emotions come from big words? He thinks I don’t know the ten-dollar words. I know them all right. But there are older and simpler and better words, and those are the ones I use.”&lt;/p&gt;
