@@ -41,13 +41,13 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Killers</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">50</meta>
-		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta id="collection-2-entry-1" property="schema:hasPart" refines="#collection-2">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">Men Without Women</meta>
 		<meta property="schema:abstract">A collection of Ernest Hemingway’s short stories and novellas.</meta>
@@ -95,7 +95,6 @@
 		<dc:contributor id="transcriber-2">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Wikisource</meta>
 		<link href="https://en.wikisource.org/" refines="#transcriber-2" rel="schema:url"/>
-		<link href="https://en.wikipedia.org/wiki/Wikisource" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Al Haines</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Haines, Al</meta>
